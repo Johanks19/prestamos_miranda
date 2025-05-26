@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Sistema de Préstamos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="contenedor">
+    <div class="izquierda">
+      <h1>Sistema de Gestión de Préstamos</h1>
+      <p>Controle su negocio de manera eficiente y segura. Mantenga un registro detallado de sus operaciones financieras.</p>
+      <ul>
+        <li>📈 Seguimiento en tiempo real</li>
+        <li>💵 Control flujo de efectivo</li>
+        <li>🛡️ Gestión segura de datos</li>
+      </ul>
+    </div>
+
+    <div class="derecha">
+      <h2>Bienvenido</h2>
+      <p>Ingrese sus credenciales para continuar</p>
+      <form action="login.php" method="POST">
+        <label for="correo">Correo Electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+        <label for="clave">Contraseña</label>
+        <input type="password" id="clave" name="clave" required>
+
+        <div class="opciones">
+          <label><input type="checkbox" name="recordar"> Recordarme</label>
+          <a href="#">¿Olvidó su contraseña?</a>
+        </div>
+
+        <button id="iniciar-sesion" type="submit">Iniciar Sesión</button>
+        <p>¿No tiene una cuenta? <a href="registro.html">Registrarse</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

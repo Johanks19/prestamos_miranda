@@ -1,0 +1,43 @@
+<!-- registro.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Crear Cuenta - Préstamos Miranda</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Préstamos Miranda</div>
+  </header>
+
+  <main class="registro-container">
+    <h1>CREAR CUENTA</h1>
+    <p>Gestiona tus préstamos de manera eficiente</p>
+
+    <form action="crearUsuario.php" method="POST">
+      <div class="input-group">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="apellido" placeholder="Apellido" required>
+      </div>
+
+      <input type="email" name="email" placeholder="ejemplo@correo.com" required>
+      <input type="text" name="cedula" placeholder="Cédula" required>
+
+
+      <label class="checkbox">
+        <input type="checkbox" required>
+        Acepto los Términos y Condiciones y las Políticas de Privacidad
+      </label>
+
+      <button id="crear-cuenta"type="submit">CREAR CUENTA</button>
+
+      <p class="login-link">¿Ya tienes una cuenta? <a href="login.html">Iniciar Sesión</a></p>
+    </form>
+  </main>
+
+  <footer>
+    <small>Ayuda</small>
+  </footer>
+</body>
+</html>

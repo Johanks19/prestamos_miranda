@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuevo Préstamo - Préstamos Miranda</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <img src="logo.png" alt="Logo Préstamos Miranda" class="logo">
+    <nav class="nav">
+      <a href="dashboard.html">Inicio</a>
+      <a href="#">Préstamos</a>
+      <a href="#">Clientes</a>
+      <a href="#">Reportes</a>
+      <div class="perfil-icono">👤</div>
+    </nav>
+  </header>
+
+  <main class="formulario-prestamo">
+    <h2>Nuevo Préstamo</h2>
+    <p>Complete los datos del nuevo préstamo</p>
+
+    <form>
+      <div class="campos">
+        <div class="campo">
+          <label>Nombre del Cliente</label>
+          <input type="text" required>
+        </div>
+
+        <div class="campo">
+          <label>Dirección</label>
+          <input type="text">
+        </div>
+
+        <div class="campo">
+          <label>Documento de Identidad</label>
+          <input type="text" required>
+        </div>
+
+        <div class="campo">
+          <label>Email</label>
+          <input type="email">
+        </div>
+
+        <div class="campo">
+          <label>Monto del Préstamo</label>
+          <input type="number" min="0" required>
+        </div>
+
+        <div class="campo">
+          <label>Tasa de interés (%)</label>
+          <input type="number" step="0.01" min="0">
+        </div>
+
+        <div class="campo">
+          <label>Plazo (Meses)</label>
+          <input type="number" min="1">
+        </div>
+
+        <div class="campo">
+          <label>Frecuencia de Pago</label>
+          <select>
+            <option>Diario</option>
+            <option>Semanal</option>
+            <option>Quincenal</option>
+            <option>Mensual</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label>Fecha de Inicio</label>
+          <input type="date">
+        </div>
+
+        <div class="campo" style="flex: 1 1 100%;">
+          <label>Descripción de Garantías</label>
+          <textarea rows="3"></textarea>
+        </div>
+      </div>
+
+      <div class="botones-archivos">
+        <button type="button">📷 Agregar Foto</button>
+        <button type="button">📎 Adjuntar Documento</button>
+      </div>
+
+      <div class="botones-finales">
+        <button type="button" class="boton-cancelar">Cancelar</button>
+        <button type="submit" class="boton-crear">Crear Préstamo</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="pie">
+    <span>❓ Ayuda</span>
+    <span>⚙️ Configuración</span>
+  </footer>
+
+</body>
+</html>
