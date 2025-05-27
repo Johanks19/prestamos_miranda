@@ -521,7 +521,6 @@ font-size: 2em;
     label {
       font-size: 12px;
       margin-bottom: 5px;
-      pointer-events: none;
     }
 
     input[type="text"],
