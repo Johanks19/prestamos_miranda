@@ -19,7 +19,7 @@ require'gestionPrestamos.php';
       <span>Préstamos Miranda</span>
     </div>
     <nav>
-      <a href="#">Inicio</a>
+      <a href="dashboard.php">Inicio</a>
       <a href="#">Préstamos</a>
       <a href="#">Clientes</a>
       <a href="#">Reportes</a>
