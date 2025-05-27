@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registra tu pago</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+
+    header {
+      background-color: #d9ecd3;
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      font-weight: bold;
+    }
+
+    header img {
+      width: 40px;
+      margin-right: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 2em;
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-size: 12px;
+      margin-bottom: 5px;
+      pointer-events: none;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      margin-right: 10px;
+    }
+
+    .checkbox-group input[type="text"] {
+      width: 140px;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
+    button {
+      background-color: #d9ecd3;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .footer-help {
+      position: fixed;
+      bottom: 10px;
+      right: 20px;
+      font-size: 14px;
+    }
+
+    .plan-pagos {
+      margin: 40px auto;
+      width: 90%;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #222;
+      color: #fff;
+    }
+
+    td {
+      background-color: #f4f4f4;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo"> <!-- Puedes reemplazar con el logo real -->
+    <span>Préstamos Miranda</span>
+  </header>
+
+  <h1>registra tu pago</h1>
+
+  <div class="form-container">
+    <div>
+      <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" placeholder="">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="">
+      </div>
+      <div class="form-group">
+        <label>Dirección</label>
+        <input type="text" placeholder="">
+      </div>
+      <label>pagar cuota fija</label>
+      <div class="checkbox-group">
+        <input type="checkbox">
+        <input type="text" placeholder="">
+      </div>
+    </div>
+
+    <div>
+      <div class="form-group">
+        <label>Apellido</label>
+        <input type="text" placeholder="">
+      </div>
+      <div class="form-group">
+        <label>Cédula</label>
+        <input type="number" placeholder="">
+      </div>
+      <div class="form-group">
+        <label>Teléfono</label>
+        <input type="number" placeholder="">
+      </div>
+      <label>pagar otro valor </label>
+      <div class="checkbox-group">
+        <input type="checkbox">
+        <input type="text" placeholder="digita el valor a pagar">
+      </div>
+    </div>
+  </div>
+
+  <div class="button-container">
+    <button>pagar</button>
+  </div>
+
+  <div class="plan-pagos">
+    <h2>Plan de Pagos</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>N° Cuota</th>
+          <th>Fecha Pago</th>
+          <th>Cuota</th>
+          <th>Interés</th>
+          <th>Abono a Capital</th>
+          <th>Saldo</th>
+          <th>estado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Aquí puedes agregar las filas desde el código -->
+        <tr>
+          <td>1</td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <!-- Agrega más filas si lo necesitas -->
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer-help">
+    ❔ Ayuda
+  </div>
+
+</body>
+</html>
