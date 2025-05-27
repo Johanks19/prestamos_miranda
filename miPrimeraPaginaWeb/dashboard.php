@@ -15,7 +15,7 @@ require'gestionPrestamos.php';
 
   <header class="barra-navegacion">
     <div class="logo">
-      <img src="logo.png" alt="Logo">
+     <img src="imagenes-miranda/prestamos_miranda__2.1.png" alt="Logo"> 
       <span>Préstamos Miranda</span>
     </div>
     <nav>
