@@ -24,6 +24,24 @@ body {
   box-sizing: border-box;
   border-right: 1px solid #ccc;
 }
+ul {
+  list-style: none; /* Quita las viñetas */
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+ul li img {
+  width: 80px;          /* Ajusta al mismo tamaño */
+  height: 80px;         /* Asegura proporción */
+  object-fit: contain;  /* Evita que se deformen */
+  margin-right: 10px;   /* Espacio entre imagen y texto */
+}
 
 .izquierda h1 {
   font-size: 30px;
