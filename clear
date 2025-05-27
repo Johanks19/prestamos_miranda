@@ -1,0 +1,29 @@
+[33mcommit a74e2fffe406740b924423d746beeb0f97eb485b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: IvanDiaz-ux <ivan.camilo.d@hotmail.com>
+Date:   Mon May 26 22:12:51 2025 -0500
+
+    crear cuenta ya con los cambios
+
+[1mdiff --git a/miPrimeraPaginaWeb/registro.html b/miPrimeraPaginaWeb/registro.html[m
+[1mindex 3512f31..e27f222 100644[m
+[1m--- a/miPrimeraPaginaWeb/registro.html[m
+[1m+++ b/miPrimeraPaginaWeb/registro.html[m
+[36m@@ -19,10 +19,16 @@[m
+       <div class="input-group">[m
+         <input type="text" name="nombre" placeholder="Nombre" required>[m
+         <input type="text" name="apellido" placeholder="Apellido" required>[m
+[32m+[m[32m        <input type="text" name="cedula" placeholder="Cédula" required>[m
+[32m+[m[32m        <input type="text" name="Numero Celular" placeholder="Numero Celular" required>[m
+[32m+[m[32m        <input type="text" name="Direccion" placeholder="Direccion" required>[m
+[32m+[m[32m        <input type="email" name="email" placeholder="ejemplo@correo.com" required>[m
+[32m+[m[32m        <input type="password" name="Contraseña" placeholder="Contraseña" required>[m
+[32m+[m[32m        <input type="password" name="Contraseña" placeholder="Confirmar Contraseña" required>[m
+[32m+[m[41m        [m
+       </div>[m
+ [m
+[31m-      <input type="email" name="email" placeholder="ejemplo@correo.com" required>[m
+[31m-      <input type="text" name="cedula" placeholder="Cédula" required>[m
+[32m+[m[41m      [m
+ [m
+ [m
+       <label class="checkbox">[m
