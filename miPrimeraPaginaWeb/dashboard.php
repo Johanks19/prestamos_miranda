@@ -102,10 +102,6 @@ require'gestionPrestamos.php';
       <button class="boton" onclick="location.href='registro.html'" >+ REGISTRAR CLIENTE </button>
     </section>
 
-    <section class="graficos">
-      <div class="grafico">Gráfico de Flujo de Capital</div>
-      <div class="grafico">Gráfico de Estado de Préstamos</div>
-    </section>
 
   </main>
 
